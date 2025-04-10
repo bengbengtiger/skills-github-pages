@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>徐鹤桐的忏悔录</title>
+    <style>
+        /* 保持原有样式不变 */
+        body { font-family: 'Microsoft YaHei', sans-serif; text-align: center; margin: 50px auto; max-width: 800px; padding: 0 20px; }
+        h1 { color: #2c3e50; margin-bottom: 40px; }
+        .menu { display: flex; justify-content: center; gap: 50px; flex-wrap: wrap; }
+        .menu-item {
+            text-decoration: none;
+            color: #3498db;
+            transition: all 0.3s;
+            padding: 20px 40px;
+            border: 2px solid #3498db;
+            border-radius: 10px;
+            font-size: x-large;
+            font-weight: bold;
+        }
+        .menu-item:hover {
+            transform: translateY(-5px);
+            background-color: rgba(52, 152, 219, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>徐鹤桐的忏悔录</h1>
+    
+    <div class="menu">
+        <!-- 修改点1：标准化文件名为英文 -->
+        <a href="./content.html" class="menu-item">
+            <span>忏悔书</span>
+        </a>
+        
+        <!-- 修改点2：准备影视页面 -->
+        <a href="./movies.html" class="menu-item">
+            <span>movie list</span>
+        </a>
+    </div>
+</body>
+</html>
+</html>
